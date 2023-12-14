@@ -1,6 +1,17 @@
 # LangServeDemo
 A demonstration of using LangServe to create an API from a LCEL Rag Chain!
 
+## Step 0: Set-up LangServe App
+
+Getting started is as easy as 2 steps:
+
+1. `pip install langchain-cli[all]`
+2. `langchain app new /YOUR/PATH/HERE`
+
+With that, you should see a directory with the following structure:
+
+![image](https://i.imgur.com/1qWTiC1.png)
+
 ## Step 1: Build an Index
 
 Using the Notebook found [here](https://github.com/AI-Maker-Space/LangServeDemo/blob/main/create_index.ipynb) - we created, and then saved, a FAISS-backed VectorStore containing information from the LangServe repository.
