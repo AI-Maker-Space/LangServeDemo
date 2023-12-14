@@ -57,4 +57,6 @@ All that's left to do is:
 
 `langchain serve`!
 
+Head on over to `localhost:8000/rag/playground` to get experimenting with your chain!
+
 
