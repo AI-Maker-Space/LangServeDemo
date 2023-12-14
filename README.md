@@ -45,6 +45,16 @@ rag_chain = entry_point_chain | rag_prompt | hf_llm | StrOutputParser()
 
 ## Step 3: Add the Custom Route
 
+Now we can map our chain to its own custom route using:
+
+```python
+add_routes(app, rag_chain, path="/rag")
+```
+
 ## Step 4: Serve
+
+All that's left to do is:
+
+`langchain serve`!
 
 
